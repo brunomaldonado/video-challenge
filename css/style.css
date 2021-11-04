@@ -162,6 +162,7 @@ a {
 .header__menu--profile {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .header__menu--profile img {
@@ -170,6 +171,7 @@ a {
 
 .header__menu--profile p {
   font-size: 1.8rem;
+  cursor: pointer;
 }
 
 .header__menu .header__nav-menu {
@@ -271,7 +273,7 @@ input[type=text] {
   width: 80%;
   height: 40px;
   padding: 0 20px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #fff;
 }
 
@@ -434,9 +436,9 @@ input[type=password] {
 .form__input {
   background-color: rgba(255, 255, 255, 0.2);
   outline: none;
-  height: 38px;
+  height: 48px;
   padding: 0 12px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 12px;
 }
 
@@ -445,18 +447,21 @@ input[type=password] {
   border-color: #1e2dff;
 }
 
-.button-submit {
-  padding: 9px;
-  border: none;
-  outline: none;
-  border-radius: 4px;
-  font-size: 1.4rem;
-  /* background-color: #1a73eb; */
+.login__container .__button {
   background-color: #1877f2;
-  border: 1px solid transparent;
-  color: #fff;
+  border: none;
+  border-radius: 6px;
+  line-height: 48px;
   margin-bottom: 17px;
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.button__form {
   cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .button-submit:hover {
@@ -510,7 +515,6 @@ input[type=password] {
 
 .separator {
   width: 100%;
-  /* margin: 12px 0 4px 0; */
   margin: 12px 0;
 }
 
@@ -564,11 +568,11 @@ input[type=password] {
 }
 
 .login__5t3b {
-  padding: 8px 3px;
+  padding: 13px 3px;
   background: #00a400;
   border: none;
   box-shadow: none;
-  border-radius: 4px;
+  border-radius: 6px;
   width: 200px;
   margin: 0 auto;
 }
@@ -592,13 +596,15 @@ html {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  position: fixed;
+  /* position: fixed; */
   background-color: #000000;
   background-image: radial-gradient(#11581E, #041607), url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
   background-repeat: no-repeat;
   background-size: cover;
   color: rgba(128, 255, 128, 0.8);
   text-shadow: 0 0 1ex #33ff33, 0 0 2px rgba(255, 255, 255, 0.8);
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .logo__error-404 {
