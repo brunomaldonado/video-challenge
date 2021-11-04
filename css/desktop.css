@@ -22,7 +22,9 @@ main {
 }
 
 
-
+.terminal {
+  padding: 10rem;
+}
 
 .footer__copyright {
   display: flex;
@@ -42,6 +44,10 @@ main {
   main {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .terminal {
+    padding: 20rem;
   }
 
   .site__footer {
