@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>debugging</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/surface.css" media="(min-width: 540px)">
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+
+</head>
+
+<body>
+  <header class="Header__header">
+    <div class="header__cube">
+      <div class="square1"></div>
+      <div class="square2"></div>
+      <div class="square3"></div>
+      <div class="stop"></div>
+      <div class="play"></div>
+      <div class="pause1"></div>
+      <div class="pause2"></div>
+    </div>
+    <a class="header__logo" href="">SPR</a>
+    <div class="header__menu">
+      <div class="header__menu--profile">
+        <img src="./assets/user-icon.png" alt="user">
+        <p>brunomaldonado</p>
+      </div>
+      <ul class="header__nav-menu">
+        <li><a href="./log-In/index.html">Log In</a></li>
+        <li><a href="/">Acount</a></li>
+        <li><a href="./pageError/index.html">Avatar</a></li>
+        <li><a href="/">Log out</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="main__search">
+      <h1 class="main__title">That you <span>want to see</span> today?</h1>
+      <input class="main__input" type="text" placeholder="Search...">
+    </section>
+
+
+    <section class="carousel__section">
+      <h1 class="carousel__title">Most viewed to date</h1>
+      <div class="carousel">
+        <div class="carousel__container">
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/1002.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/dua.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/1003.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/1013.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/shasha.jpg" alt="">
+            <!-- <img class="carousel-item__img" src="./assets/1074439.jpg" alt=""> -->
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/1009.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="/assets/1008.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel__section">
+      <h1 class="carousel__title">Trends</h1>
+      <div class="carousel">
+        <div class="carousel__container">
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/cara.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/1015.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/lily.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/desktop.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/cyrus.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/billiev.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/12.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel__section">
+      <h1 class="carousel__title">Most Recommended</h1>
+      <div class="carousel">
+        <div class="carousel__container">
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/ana.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/porsche.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/1014.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/amber.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/1012.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/delevingne.jpg" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__img" src="./assets/098.png" alt="">
+            <div class="carousel-item__details">
+              <div>
+                <img class="carousel-item__imgIcon" src="./assets/play.ico" alt="">
+                <img class="carousel-item__imgIcon" src="./assets/addtwo.png" alt="">
+              </div>
+              <p class="carousel-item__details--title">Title Description</p>
+              <p class="carousel-item__details--subtitle">2021 21+ 134 minutes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="container">
+      <p>Hello world</p>
+      <p>El que aprende y aprende y no practica lo que sabe, es como el que ara y ara y no siembra platon</p>
+      <p>No llegues con verguenza al futuro</p>
+      <p>Aun no eres quien vas a llegar a ser</p>
+    </div> -->
+
+    <!-- <div class="square">
+      <div class="square1"></div>
+      <div class="stop"></div>
+    </div> -->
+
+    <!-- <div class="cube">
+      <div class="square1"></div>
+      <div class="square2"></div>
+      <div class="square3"></div>
+      <div class="stop"></div>
+      <div class="play"></div>
+      <div class="pause1"></div>
+      <div class="pause2"></div>
+    </div> -->
+  </main>
+
+  <footer class="site__footer">
+    <div class="footer__country">Mexico ◉</div>
+    <ul class="footer__copyright">
+      <li><a href="#">Terms of Use</a></li>
+      <li><a href="#">Privacy Statements</a></li>
+      <li><a href="#">Help Center</a></li>
+    </ul>
+    <p class="copyright">Copyright © 2021. <strong style="color:rgb(7, 7, 7)">Bruno Maldonado. </strong>All rights
+      reserved.</p>
+  </footer>
+</body>
+
+</html>

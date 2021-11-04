@@ -1,0 +1,54 @@
+.Header__header {
+  width: 85%;
+}
+
+.header__logo {
+  font-size: 3.5rem;
+}
+
+main {
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.main__search {
+  padding-top: 80px;
+  margin-bottom: 85px;
+}
+
+.main__input {
+  width: 68%;
+}
+
+
+
+
+.footer__copyright {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.footer__copyright li {
+  margin-right: 52px;
+}
+
+@media screen and (min-width: 1440px) {
+  .Header__header {
+    width: 75%;
+  }
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .site__footer {
+    padding: 12px;
+    /* background-image: inherit; */
+    /* background-image: url(../assets/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+  }
+}
