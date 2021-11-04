@@ -153,6 +153,7 @@ a {
   position: absolute;
   left: 95px;
   font-size: 2rem;
+  color: #000;
 }
 
 .header__menu {
@@ -172,6 +173,7 @@ a {
 .header__menu--profile p {
   font-size: 1.8rem;
   cursor: pointer;
+  font-family: "Mulish", sans-serif;
 }
 
 .header__menu .header__nav-menu {
@@ -454,7 +456,8 @@ input[type=password] {
   line-height: 48px;
   margin-bottom: 17px;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .button__form {
@@ -596,19 +599,23 @@ html {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  /* position: fixed; */
+  position: fixed;
   background-color: #000000;
   background-image: radial-gradient(#11581E, #041607), url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
   background-repeat: no-repeat;
   background-size: cover;
   color: rgba(128, 255, 128, 0.8);
   text-shadow: 0 0 1ex #33ff33, 0 0 2px rgba(255, 255, 255, 0.8);
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 .logo__error-404 {
   color: #fff;
+}
+
+.main__error-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
 .noise {
@@ -750,7 +757,7 @@ html {
 
 .footer__copyright li a {
   font-size: 1.4rem;
-  color: #70757a;
+  color: #52565a;
   cursor: pointer;
 }
 
