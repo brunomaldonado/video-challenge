@@ -612,11 +612,11 @@ html {
   color: #fff;
 }
 
-.main__error-page {
+/* .main__error-page {
   position: relative;
   width: 100%;
   height: 100vh;
-}
+} */
 
 .noise {
   pointer-events: none;
@@ -668,12 +668,12 @@ html {
 .terminal {
   max-width: 100%;
   width: 1100px;
-  height: 100px;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 255px);
+  /* min-height: calc(100vh - 255px); */
   padding: 2rem;
   text-transform: uppercase;
 }

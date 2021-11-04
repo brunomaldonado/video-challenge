@@ -292,6 +292,12 @@
   padding: 15px;
 }
 
+/* .site__footer-error {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+} */
+
 .site__footer .copyright {
   font-size: 1.8rem;
 }
@@ -330,8 +336,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 255px);
-  height: 80px;
+  /* min-height: calc(100vh - 255px); */
+  /* height: 80px; */
   padding: 5rem;
   text-transform: uppercase;
 }

@@ -7,8 +7,7 @@
 </p>
 
 ### visit the page.
-only [here](https://brunomaldonado.github.io/video-challenge/log-in/index.html
- "here")
+only [here](https://brunomaldonado.github.io/video-challenge/index.html "here")
 
 ------------
 
