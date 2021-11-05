@@ -412,6 +412,7 @@ p:nth-child(2n+1) {
   overflow: auto;
   opacity: 0;
   pointer-events: none;
+  /* cursor: pointer; */
 }
 
 .modal__content {

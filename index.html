@@ -7,8 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Curso de Fronted developer">
-  <meta name="robots" content="follow, html"
-  <meta name="author" content="Bruno Maldonado">
+  <meta name="robots" content="follow, html" <meta name="author" content="Bruno Maldonado">
   <title>SPR</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -16,7 +15,6 @@
   <link rel="stylesheet" href="./css/surface.css" media="(min-width: 540px)">
   <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
   <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
-
 </head>
 
 <body class="body__modal">
@@ -38,7 +36,7 @@
       </div>
       <ul class="header__nav-menu">
         <li><a href="./log-In/index.html">Log In</a></li>
-        <li><a href="./log-In/index.html">Acount</a></li>
+        <li><a href="./pageError/index.html">Acount</a></li>
         <li><a href="./pageError/index.html">Avatar</a></li>
         <li><a href="./pageError/index.html">Log out</a></li>
       </ul>
@@ -50,9 +48,6 @@
       <h1 class="main__title">That you <span>want to see</span> today?</h1>
       <input class="main__input" type="text" placeholder="Search...">
     </section>
-
-
-  
 
     <section class="carousel__section">
       <h1 class="carousel__title">Most viewed to date</h1>
@@ -341,48 +336,15 @@
         </div>
       </div>
     </section>
-    <!-- <div class="container">
-      <p>Hello world</p>
-      <p>El que aprende y aprende y no practica lo que sabe, es como el que ara y ara y no siembra platon</p>
-      <p>No llegues con verguenza al futuro</p>
-      <p>Aun no eres quien vas a llegar a ser</p>
-    </div> -->
-
-    <!-- <div class="square">
-      <div class="square1"></div>
-      <div class="stop"></div>
-    </div> -->
-
-    <!-- <div class="cube">
-      <div class="square1"></div>
-      <div class="square2"></div>
-      <div class="square3"></div>
-      <div class="stop"></div>
-      <div class="play"></div>
-      <div class="pause1"></div>
-      <div class="pause2"></div>
-    </div> -->
-    <!-- <div class="modal">
-      <span class="modal__close">X</span>
-      <div class="modal__content">
-        <img class="modal__image" src="./assets/cara.jpg" alt="">
-        <span class="modal__text">Sample text</span>
-      </div>
-    </div> -->
   </main>
 
 
   <div class="modal">
     <div class="close"><img src="./assets/close.png" alt=""></div>
-    <!-- <span class="close x">X</span> -->
     <div class="modal__content">
-      <!-- <img src="./assets/cara.jpg" class="modal__image"> -->
       <img src="" class="modal__image">
-      <!-- <span class="modal__text">Sample text</span> -->
     </div>
   </div>
-
-
 
   <footer class="site__footer">
     <div class="footer__country">Mexico ◉</div>
@@ -394,8 +356,27 @@
     <p class="copyright">Copyright © 2021. Bruno Maldonado. All rights reserved.</p>
   </footer>
 
+  <!-- <script src="./js/main.js"></script> -->
 
-  <script src="/js/main.js"></script>
+  <script>
+    const images = document.querySelectorAll("img.carousel-item__img");
+    const modal = document.querySelector(".modal");
+    const modalimage = document.querySelector(".modal__image");
+    const modalclose = document.querySelector(".close");
+
+    images.forEach((image) => {
+      image.addEventListener('click', () => {
+        modal.classList.add('open');
+
+        modalimage.src = image.src;
+
+        modalclose.addEventListener('click', (e) => {
+          console.log(e);
+          modal.classList.remove('open');
+        })
+      });
+    });
+  </script>
 </body>
 
 </html>
