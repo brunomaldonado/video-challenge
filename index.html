@@ -3,9 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="./assets/desktop.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>debugging</title>
+  <meta name="description" content="Curso de Fronted developer">
+  <meta name="robots" content="follow, html"
+  <meta name="author" content="Bruno Maldonado">
+  <title>SPR</title>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
@@ -15,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="body__modal">
   <header class="Header__header">
     <div class="header__cube">
       <div class="square1"></div>
@@ -358,7 +362,27 @@
       <div class="pause1"></div>
       <div class="pause2"></div>
     </div> -->
+    <!-- <div class="modal">
+      <span class="modal__close">X</span>
+      <div class="modal__content">
+        <img class="modal__image" src="./assets/cara.jpg" alt="">
+        <span class="modal__text">Sample text</span>
+      </div>
+    </div> -->
   </main>
+
+
+  <div class="modal">
+    <div class="close"><img src="./assets/close.png" alt=""></div>
+    <!-- <span class="close x">X</span> -->
+    <div class="modal__content">
+      <!-- <img src="./assets/cara.jpg" class="modal__image"> -->
+      <img src="" class="modal__image">
+      <!-- <span class="modal__text">Sample text</span> -->
+    </div>
+  </div>
+
+
 
   <footer class="site__footer">
     <div class="footer__country">Mexico ◉</div>
@@ -367,9 +391,11 @@
       <li><a href="#">Privacy Statements</a></li>
       <li><a href="#">Help Center</a></li>
     </ul>
-    <p class="copyright">Copyright © 2021. <strong style="color:rgb(7, 7, 7)">Bruno Maldonado. </strong>All rights
-      reserved.</p>
+    <p class="copyright">Copyright © 2021. Bruno Maldonado. All rights reserved.</p>
   </footer>
+
+
+  <script src="/js/main.js"></script>
 </body>
 
 </html>

@@ -216,6 +216,15 @@
 }
 
 
+/* modal ================================================================= */
+.close img {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+}
+
 /* login =================================================  */
 .login__container {
   padding: 32px;

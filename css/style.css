@@ -391,6 +391,73 @@ p:nth-child(2n+1) {
 }
 
 */
+
+/* modal ================================================================= */
+
+.body__modal {
+  /* display: flex;
+  justify-content: center; */
+  min-height: 100vh;
+}
+
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  z-index: 1;
+  overflow: auto;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal__image {
+  max-width: 100%;
+  max-height: 100%;
+  /* animation: zoom 0.3s linear; */
+}
+
+.close img{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+}
+
+.modal.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal.open .modal__image {
+  animation: zoom 0.3s linear;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
 /* Log In ================================================================= */
 .login {
   width: 100%;
