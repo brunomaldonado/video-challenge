@@ -3,7 +3,7 @@
 ------------
 
 <p align = "center">
-  <img src="./assets/screenshot/menu.png" alt="Start the Game">
+  <img src="./assets/screenshot/tab.png" alt="Start the Game">
 </p>
 
 ### visit the page.
