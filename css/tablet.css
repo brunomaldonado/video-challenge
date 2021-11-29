@@ -6,6 +6,10 @@
   margin: 0 auto;
 }
 
+.play{
+  border-bottom: 18px solid lightblue;
+}
+/* 
 .header__cube {
   position: relative;
   top: -53px;
@@ -74,8 +78,6 @@
   width: 4px;
   height: 22px;
   background: rgba(255, 255, 255, 0.5);
-
-  /* border: solid 1px #fff; */
   border-radius: 5px;
   transform: skew(180deg, 210deg);
   position: absolute;
@@ -87,17 +89,15 @@
   width: 4px;
   height: 22px;
   background: rgba(255, 255, 255, 0.5);
-
-  /* border: solid 1px #fff; */
   border-radius: 5px;
   transform: skew(180deg, 210deg);
   position: absolute;
   left: 22px;
   top: 54px;
-}
+} */
 
 .header__logo {
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 .header__menu {
@@ -111,12 +111,12 @@
 
 .header__menu--profile img {
   margin-right: 10px;
-  width: 64px;
+  width: 50px;
 
 }
 
 .header__menu--profile p {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 .header__menu .header__nav-menu {
@@ -156,7 +156,6 @@
 
 .main__title {
   font-size: 4rem;
-  margin-bottom: 23px;
   font-family: "Darling";
 }
 
@@ -166,15 +165,15 @@
 }
 
 .main__input {
-  border: none;
-  outline: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  word-wrap: break-word;
-  width: 75%;
-  height: 50px;
+  width: 400px;
+  /* height: 50px; */
   padding: 0 20px;
   font-size: 1.6rem;
 }
+
+
+
+
 
 .carousel__section {
   width: 90%;
@@ -195,26 +194,10 @@
 }
 
 .carousel__title {
-  padding-left: 0;
-}
+  font-size: 1.5rem;
+  margin-left: 0px;
 
-.carousel-item {
-  width: 230px;
-  height: 280px;
 }
-
-.carousel-item:hover ~ .carousel-item{
-  transform: translate3d(115px, 0, 0);
-}
-
-.carousel-item__imgIcon {
-  width: 33px;
-}
-.carousel-item__details--title, .carousel-item__details--subtitle {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
-}
-
 
 /* modal ================================================================= */
 .close img {
@@ -228,22 +211,24 @@
 /* login =================================================  */
 .login__container {
   padding: 32px;
-  min-height: 557px;
-  width: 425px;
+  min-height: 447px;
+  width: 359px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 6px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  /* margin-top: 26px; */
-  box-shadow: 0px 0px 20px 0px rgb(243, 238, 238);
+  /* box-shadow: 0px 0px 20px 0px rgb(243, 238, 238); */
 }
 
 .login__container h2 {
-  text-align: center;
+  /* text-align: center; */
   font-size: 2.9rem;
+  position: relative;
+  bottom: 15px;
+  /* margin-bottom: 25px; */
 }
-
+/* 
 .form__input {
   background-color: rgba(255, 255, 255, 0.2);
   height: 50px;
@@ -282,7 +267,6 @@
 }
 
 .login__reg > span:before, .login__reg > span:after {
-  /* background: #ccd0d5; */
   background: #b7c0cc;
   content: "";
   height: 1px;
@@ -293,7 +277,6 @@
 
 .login__43mh {
   font-size: 1.4em;
-  /* color: red; */
 }
 
 
@@ -321,15 +304,15 @@
   cursor: pointer;
   font-size: 1.2em;
 }
-
+*/
 .footer__country {
   padding: 6px 0px;
   border-bottom: 1px solid #70757a;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .footer__copyright li a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #70757a;
 }
 
